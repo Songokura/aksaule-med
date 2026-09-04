@@ -15,7 +15,6 @@
   --line:rgba(18,48,47,.14);
   --r:22px;
   --hdr:60px;
-  --scan:38vh;
   --font-d:"Unbounded",system-ui,sans-serif;
   --font-b:"Golos Text",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -66,7 +65,6 @@ body.menu-open .hdr.solid .lang{background:rgba(255,255,255,.16);border-color:rg
 .menu-open .burger b::before{transform:translateY(6px) rotate(45deg)}
 .menu-open .burger b::after{transform:translateY(-6px) rotate(-45deg)}
 .menu-open .bar,.modal-open .bar{transform:translateY(140px)}
-.menu-open .scanline,.modal-open .scanline{opacity:0}
 
 /* полноэкранное меню */
 .menu{position:fixed;inset:0;z-index:40;background:var(--ink2);color:#fff;padding:calc(var(--hdr) + 24px) 18px 30px;clip-path:circle(0 at calc(100% - 38px) 30px);transition:clip-path .55s cubic-bezier(.7,0,.2,1);overflow:auto;display:flex;flex-direction:column}
@@ -165,11 +163,7 @@ h1 .w{display:inline-block;opacity:0;transform:translateY(.6em) skewY(3deg);clip
 .stat .num{font-size:clamp(22px,5.6vw,30px);font-weight:700;color:var(--ray2);line-height:1;white-space:nowrap}
 .stat small{display:block;font-size:11.5px;color:rgba(255,255,255,.6);margin-top:5px;line-height:1.3}
 
-/* ===== линия сканирования и появление ===== */
-.scanline{position:fixed;left:0;right:0;top:var(--scan);height:1px;z-index:30;pointer-events:none;opacity:0;transition:opacity .4s;
- background:linear-gradient(90deg,transparent,var(--ray) 20%,var(--ray) 80%,transparent);box-shadow:0 0 14px 1px rgba(243,197,91,.6)}
-.scanline::after{content:"";position:absolute;left:0;right:0;top:0;height:60px;background:linear-gradient(180deg,rgba(243,197,91,.12),transparent)}
-.scan-on .scanline{opacity:.85}
+/* ===== появление блоков ===== */
 .s{opacity:.1}
 .s.lit{animation:scanin .8s cubic-bezier(.2,.7,.2,1) forwards;opacity:1}
 @keyframes scanin{0%{clip-path:inset(0 0 100% 0);opacity:1}100%{clip-path:inset(-30px);opacity:1}}

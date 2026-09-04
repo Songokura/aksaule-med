@@ -412,10 +412,9 @@ $$(".hot").forEach(h=>{
   h.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}});
 });
 
-/* шапка, линия сканирования, нижняя панель */
+/* шапка и нижняя панель */
 new IntersectionObserver(([en])=>{
   const past=!en.isIntersecting;
-  document.body.classList.toggle("scan-on",past);
   $("#hdr").classList.toggle("solid",past);
   document.body.classList.toggle("bar-on",past);
 },{threshold:0,rootMargin:"-60px 0px 0px 0px"}).observe($("#glavnaya"));
