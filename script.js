@@ -6,7 +6,7 @@ ru:{
  n_svc:"Услуги",n_doc:"Врачи",n_br:"Филиалы",n_cl:"Клиника",n_rev:"Отзывы",n_con:"Контакты",m_call:"Позвонить:",
  h_eye:"Кызылорда · 5 филиалов · с 2016 года",
  h_title:"Медицинский центр в Кызылорде",
- h_sub:"Ясный диагноз, честная цена и лечение без скрытых платежей. ЛОР, кардиолог, невропатолог, ревматолог и реабилитация - 13 врачей в 5 филиалах города.",
+ h_sub:"Ясный диагноз, честная цена и лечение без скрытых платежей. ЛОР, кардиолог, невропатолог, ревматолог и реабилитация - 14 врачей в 5 филиалах города.",
  h_hint:"Нажмите точку - откроется нужное направление",
  h_mean:"<b>Ақ сәуле</b> значит «белый луч», чистый свет. Так же мы и работаем: понятный диагноз, открытая цена, лечение без скрытых платежей.",
  b_book:"Записаться на приём",b_call:"Позвонить",b_book2:"Записаться",b_price:"Весь прайс",b_bio:"Биография",
@@ -25,14 +25,14 @@ ru:{
  s_note:"Для иностранных граждан стоимость услуг рассчитывается на 50% выше.",
  k_doc:"Врачи",d_h:"Кто вас примет",d_sub:"Кольцо у фотографии показывает опыт врача: 30 лет практики - полный круг.",
  all:"Все",yrs:"лет опыта",
- sp:{lor:"ЛОР-врач",kar:"Кардиолог",nev:"Невропатолог",rev:"Ревматолог",reab:"Реабилитолог",nut:"Нутрициолог"},
+ sp:{lor:"ЛОР-врач",kar:"Кардиолог",nev:"Невропатолог",rev:"Ревматолог",reab:"Реабилитолог",nut:"Нутрициолог",ter:"Терапевт"},
  k_br:"Филиалы",br_h:"Пять адресов по городу",br_sub:"Циферблат показывает часы работы в будни. Белый разрыв - обеденный перерыв.",
  kind_reab:"Реабилитационный центр",kind_lor:"ЛОР-отделение",
  wd:"Пн-Пт",wd6:"Пн-Сб",sat:"Суббота",sun:"Воскресенье",brk:"перерыв",off:"Выходной",map:"На карте",
  soon_b:"Скоро откроется новый филиал",soon_s:"Мы растём, чтобы быть ближе к вам. Новости - в Instagram клиники.",
  k_cl:"Клиника",g_h:"Как у нас внутри",g_sub:"Реальные снимки кабинетов, оборудования и приёма. Нажмите на фото, чтобы увеличить.",
  k_why:"Почему мы",a_h:"Почему пациенты возвращаются",
- adv:[["Опытные врачи","13 врачей: ЛОР, кардиолог, невропатолог, ревматолог, реабилитолог, нутрициолог."],
+ adv:[["Опытные врачи","14 врачей: ЛОР, терапевт, кардиолог, невропатолог, ревматолог, реабилитолог, нутрициолог."],
       ["Всё в одном месте","Консультация, диагностика и лечение без поездок по городу."],
       ["Личный план лечения","Схему подбирают под ваш случай, а не по шаблону."],
       ["Современное оборудование","Видеоэндоскопия, аудиометрия, ЭКГ, УЗИ, физиотерапия."],
@@ -54,7 +54,7 @@ kk:{
  n_svc:"Қызметтер",n_doc:"Дәрігерлер",n_br:"Бөлімшелер",n_cl:"Клиника",n_rev:"Пікірлер",n_con:"Байланыс",m_call:"Қоңырау шалу:",
  h_eye:"Қызылорда · 5 бөлімше · 2016 жылдан бері",
  h_title:"Қызылордадағы медициналық орталық",
- h_sub:"Анық диагноз, әділ баға және жасырын төлемсіз ем. ЛОР, кардиолог, невропатолог, ревматолог және реабилитация - қаланың 5 бөлімшесінде 13 дәрігер.",
+ h_sub:"Анық диагноз, әділ баға және жасырын төлемсіз ем. ЛОР, кардиолог, невропатолог, ревматолог және реабилитация - қаланың 5 бөлімшесінде 14 дәрігер.",
  h_hint:"Нүктені басыңыз - керек бөлімге өтесіз",
  h_mean:"<b>Ақ сәуле</b> - таза жарық. Біз де солай жұмыс істейміз: анық диагноз, ашық баға, жасырын төлемсіз ем.",
  b_book:"Қабылдауға жазылу",b_call:"Қоңырау шалу",b_book2:"Жазылу",b_price:"Толық баға",b_bio:"Өмірбаяны",
@@ -73,14 +73,14 @@ kk:{
  s_note:"Шетел азаматтарына қызмет құны 50% жоғары есептеледі.",
  k_doc:"Дәрігерлер",d_h:"Сізді кім қабылдайды",d_sub:"Фотодағы сақина дәрігердің тәжірибесін көрсетеді: 30 жыл - толық шеңбер.",
  all:"Барлығы",yrs:"жыл тәжірибе",
- sp:{lor:"ЛОР дәрігері",kar:"Кардиолог",nev:"Невропатолог",rev:"Ревматолог",reab:"Реабилитолог",nut:"Нутрициолог"},
+ sp:{lor:"ЛОР дәрігері",kar:"Кардиолог",nev:"Невропатолог",rev:"Ревматолог",reab:"Реабилитолог",nut:"Нутрициолог",ter:"Терапевт"},
  k_br:"Бөлімшелер",br_h:"Қала бойынша бес мекенжай",br_sub:"Циферблат жұмыс күндеріндегі жұмыс уақытын көрсетеді. Ақ саңылау - түскі үзіліс.",
  kind_reab:"Реабилитациялық орталық",kind_lor:"ЛОР бөлімшесі",
  wd:"Дс-Жм",wd6:"Дс-Сб",sat:"Сенбі",sun:"Жексенбі",brk:"үзіліс",off:"Демалыс",map:"Картада",
  soon_b:"Жақында жаңа бөлімше ашылады",soon_s:"Біз дамып келеміз - сізге жақынырақ боламыз. Жаңалықтар клиника Instagram-ында.",
  k_cl:"Клиника",g_h:"Ішіміз қандай",g_sub:"Кабинеттер, жабдық және қабылдаудың нақты суреттері. Үлкейту үшін фотоны басыңыз.",
  k_why:"Неге біз",a_h:"Пациенттер неге қайта келеді",
- adv:[["Тәжірибелі дәрігерлер","13 дәрігер: ЛОР, кардиолог, невропатолог, ревматолог, реабилитолог, нутрициолог."],
+ adv:[["Тәжірибелі дәрігерлер","14 дәрігер: ЛОР, терапевт, кардиолог, невропатолог, ревматолог, реабилитолог, нутрициолог."],
       ["Барлығы бір жерде","Консультация, диагностика және ем - қала кезіп жүрмей."],
       ["Жеке емдеу жоспары","Схема сіздің жағдайыңызға қарай таңдалады, үлгі бойынша емес."],
       ["Заманауи жабдық","Бейнеэндоскопия, аудиометрия, ЭКГ, УДЗ, физиотерапия."],
@@ -102,7 +102,7 @@ en:{
  n_svc:"Services",n_doc:"Doctors",n_br:"Branches",n_cl:"Clinic",n_rev:"Reviews",n_con:"Contacts",m_call:"Call us:",
  h_eye:"Kyzylorda · 5 branches · since 2016",
  h_title:"Medical centre in Kyzylorda",
- h_sub:"A clear diagnosis, an honest price and treatment with no hidden fees. ENT, cardiology, neurology, rheumatology and rehabilitation - 13 doctors across 5 branches.",
+ h_sub:"A clear diagnosis, an honest price and treatment with no hidden fees. ENT, cardiology, neurology, rheumatology and rehabilitation - 14 doctors across 5 branches.",
  h_hint:"Tap a point to open the matching section",
  h_mean:"<b>Aq saule</b> means «white ray», pure light. That is how we work: a clear diagnosis, an open price, treatment with no hidden fees.",
  b_book:"Book an appointment",b_call:"Call",b_book2:"Book",b_price:"Full price list",b_bio:"Biography",
@@ -121,14 +121,14 @@ en:{
  s_note:"For foreign citizens the cost of services is 50% higher.",
  k_doc:"Doctors",d_h:"Who will see you",d_sub:"The ring by the photo shows the doctor's experience: 30 years of practice is a full circle.",
  all:"All",yrs:"years of practice",
- sp:{lor:"ENT doctor",kar:"Cardiologist",nev:"Neurologist",rev:"Rheumatologist",reab:"Rehab physician",nut:"Nutritionist"},
+ sp:{lor:"ENT doctor",kar:"Cardiologist",nev:"Neurologist",rev:"Rheumatologist",reab:"Rehab physician",nut:"Nutritionist",ter:"General physician"},
  k_br:"Branches",br_h:"Five addresses across the city",br_sub:"The dial shows weekday opening hours. The white gap is the lunch break.",
  kind_reab:"Rehabilitation centre",kind_lor:"ENT department",
  wd:"Mon-Fri",wd6:"Mon-Sat",sat:"Saturday",sun:"Sunday",brk:"break",off:"Closed",map:"On the map",
  soon_b:"A new branch is opening soon",soon_s:"We are growing to be closer to you. Follow the news on the clinic's Instagram.",
  k_cl:"Clinic",g_h:"Inside the clinic",g_sub:"Real photos of the rooms, equipment and appointments. Tap a photo to enlarge.",
  k_why:"Why us",a_h:"Why patients come back",
- adv:[["Experienced doctors","13 doctors: ENT, cardiologist, neurologist, rheumatologist, rehabilitation physician, nutritionist."],
+ adv:[["Experienced doctors","14 doctors: ENT, general physician, cardiologist, neurologist, rheumatologist, rehabilitation physician, nutritionist."],
       ["Everything in one place","Consultation, diagnostics and treatment without travelling across the city."],
       ["A personal treatment plan","The plan is built around your case, not a template."],
       ["Modern equipment","Video endoscopy, audiometry, ECG, ultrasound, physiotherapy."],
@@ -155,6 +155,7 @@ const DOCS=[
  {k:"zhupar",  f:"Жантұрсынова",  n:"Жұпар Базарбекқызы",     en:"Zhupar Zhantursynova", sp:"rev", y:17, ph:"+7 747 234 4066", br:0},
  {k:"jansaya", f:"Амангелді",     n:"Жансая Бақытжанқызы",    en:"Zhansaya Amangeldy",   sp:"reab",y:5,  ph:"+7 747 234 4066", br:0},
  {k:"zhanna",  f:"Тажмағамбетова",n:"Жанна Жаңабергенқызы",   en:"Zhanna Tazhmagambetova",sp:"nut",y:12, ph:"+7 747 234 4066", br:0},
+ {k:"kaliev",  f:"Қалиев",        n:"Дәулет Қазиұлы",         en:"Daulet Kaliyev",       sp:"ter", y:7,  ph:"+7 747 234 4066", br:0},
  {k:"ayazhan", f:"Қаби",          n:"Аяжан Болатбекқызы",     en:"Ayazhan Kabi",         sp:"lor", y:3,  ph:"+7 747 234 4066", br:0},
  {k:"saruarov",f:"Сәруаров",      n:"Ғазиз Абатбекұлы",       en:"Gaziz Saruarov",       sp:"lor", y:3,  ph:"+7 747 234 4066", br:0},
  {k:"kairat",  f:"Дүйсенов",      n:"Қайрат Дәулетбайұлы",    en:"Kairat Duisenov",      sp:"lor", y:17, ph:"+7 700 741 7676", br:1},
@@ -163,7 +164,7 @@ const DOCS=[
  {k:"bakytbek",f:"Мырзабаев",     n:"Бақытбек Сұлтанбекұлы",  en:"Bakytbek Myrzabayev",  sp:"lor", y:17, ph:"+7 705 399 3170", br:3},
  {k:"aigerim", f:"Жүсіпова",      n:"Айгерім Жүсіпқызы",      en:"Aigerim Zhusipova",    sp:"lor", y:3,  ph:"+7 747 234 4066", br:4}
 ];
-const SP_KEYS=["lor","kar","nev","rev","reab","nut"];
+const SP_KEYS=["lor","ter","kar","nev","rev","reab","nut"];
 
 const BR=[
  {img:"beibarys",k:"reab",ph:"+7 747 234 4066",wd:[8.5,17],b:[13,14.5],sat:"08:30-13:00",sun:null,d:"wd",
@@ -211,7 +212,7 @@ const REV=[
 ];
 
 const SVC_KEYS={lor:"lor_h",nevropatolog:"nev_h",kardiolog:"kar_h",revmatolog:"rev_h",reabilitaciya:"reab_h",pakety:"pak_h"};
-const SP2SVC={lor:"lor",nev:"nevropatolog",kar:"kardiolog",rev:"revmatolog",reab:"reabilitaciya",nut:""};
+const SP2SVC={lor:"lor",nev:"nevropatolog",kar:"kardiolog",rev:"revmatolog",reab:"reabilitaciya",nut:"",ter:""};
 const MAIN_PHONE="77472344066";
 
 /* ---------- вспомогательное ---------- */
