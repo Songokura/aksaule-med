@@ -417,14 +417,13 @@ new IntersectionObserver(([en])=>{
   document.body.classList.toggle("bar-on",past);
 },{threshold:0,rootMargin:"-60px 0px 0px 0px"}).observe($("#glavnaya"));
 
-/* появление блоков: на мобильном блоки видны сразу, без проявления */
-const MOB=matchMedia("(max-width:1079px)");
+/* класс lit запускает анимации иконок внутри блока; сами блоки видны сразу */
 let scanIO;
 function bindScan(){
   scanIO&&scanIO.disconnect();
   scanIO=new IntersectionObserver(es=>es.forEach(en=>{
     if(en.isIntersecting){en.target.classList.add("lit");scanIO.unobserve(en.target)}
-  }),{rootMargin:MOB.matches?"0px":"0px 0px -55% 0px",threshold:0});
+  }),{rootMargin:"0px",threshold:0});
   $$(".s").forEach(el=>{if(!el.classList.contains("lit"))scanIO.observe(el)});
 }
 
