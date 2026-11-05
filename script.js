@@ -44,7 +44,7 @@ ru:{
  r_next:"Следующий отзыв",r_yt:"Видео-отзывы на YouTube",r_cnt:"16 отзывов из 2GIS, Google, Яндекса, Instagram, TikTok, Threads и YouTube",
  k_con:"Контакты",c_h:"Записаться и доехать",c_sub:"Город Кызылорда. Позвоните напрямую в филиал или напишите в WhatsApp - ответим в рабочие часы.",
  f_h:"Записаться на приём",f_name:"Ваше имя",f_phone:"Номер телефона",f_svc:"Услуга",f_note:"Жалоба (необязательно)",
- f_send:"Отправить в WhatsApp",f_hint:"Откроется WhatsApp с готовым сообщением.",f_any:"Ещё не решил(а)",
+ f_send:"Отправить в WhatsApp",f_to:"На какой WhatsApp отправить",care:"Отдел заботы",f_hint:"Откроется WhatsApp с готовым сообщением.",f_any:"Ещё не решил(а)",
  f_1:"Ваше здоровье - наша главная ценность.",f_2:"Кызылорда, 5 филиалов",f_3:"Все права защищены.",
  m_price:"Прайс",m_pkg:"Пакеты лечения",m_pkg_sub:"Состав курса в дневном стационаре. Точную схему врач подбирает на приёме.",
  doc_pref:"Врач: ",
@@ -92,7 +92,7 @@ en:{
  r_next:"Next review",r_yt:"Video reviews on YouTube",r_cnt:"16 reviews from 2GIS, Google, Yandex, Instagram, TikTok, Threads and YouTube",
  k_con:"Contacts",c_h:"Book a visit and find us",c_sub:"Kyzylorda. Call a branch directly or write on WhatsApp - we reply during working hours.",
  f_h:"Book an appointment",f_name:"Your name",f_phone:"Phone number",f_svc:"Service",f_note:"Your complaint (optional)",
- f_send:"Send via WhatsApp",f_hint:"WhatsApp will open with the message ready.",f_any:"Not decided yet",
+ f_send:"Send via WhatsApp",f_to:"Which WhatsApp to send to",care:"Patient care department",f_hint:"WhatsApp will open with the message ready.",f_any:"Not decided yet",
  f_1:"Your health is our main value.",f_2:"Kyzylorda, 5 branches",f_3:"All rights reserved.",
  m_price:"Price list",m_pkg:"Treatment packages",m_pkg_sub:"What a day-hospital course includes. The exact plan is set by the doctor at the appointment.",
  doc_pref:"Doctor: ",
@@ -162,6 +162,8 @@ const REV=[
 const SVC_KEYS={lor:"lor_h",nevropatolog:"nev_h",kardiolog:"kar_h",revmatolog:"rev_h",reabilitaciya:"reab_h",pakety:"pak_h"};
 const SP2SVC={lor:"lor",nev:"nevropatolog",kar:"kardiolog",rev:"revmatolog",reab:"reabilitaciya",nut:"",ter:""};
 const MAIN_PHONE="77472344066";
+const WA2="77470922849";
+const CARE="+7 747 095 3766";
 
 /* ---------- вспомогательное ---------- */
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -247,7 +249,8 @@ function renderBranches(){
           </div>
         </div>
       </div></article>`}).join("");
-  $("#phones").innerHTML=BR.map(b=>`<a href="tel:${tel(b.ph)}"><div><b>${esc(L(b.a))}</b><small>${T(b.k==="reab"?"kind_reab":"kind_lor")}</small></div><span>${b.ph}</span></a>`).join("");
+  $("#phones").innerHTML=BR.map(b=>`<a href="tel:${tel(b.ph)}"><div><b>${esc(L(b.a))}</b><small>${T(b.k==="reab"?"kind_reab":"kind_lor")}</small></div><span>${b.ph}</span></a>`).join("")
+    +`<a href="tel:${tel(CARE)}"><div><b>${T("care")}</b></div><span>${CARE}</span></a>`;
 }
 
 function renderGallery(){
@@ -261,6 +264,9 @@ function formHTML(){
   <div class="f"><label for="fphone">${T("f_phone")}</label><input id="fphone" type="tel" name="phone" inputmode="tel" placeholder="+7 ___ ___ __ __" autocomplete="tel"></div>
   <div class="f"><label for="fs">${T("f_svc")}</label><select id="fs" name="s"><option value="">${T("f_any")}</option>${opts}</select></div>
   <div class="f"><label for="fc">${T("f_note")}</label><textarea id="fc" name="c"></textarea></div>
+  <fieldset class="f f-to"><legend>${T("f_to")}</legend>
+    <div class="opts"><label><input type="radio" name="to" value="1" checked><span data-wa1>+7 747 234 4066</span></label>
+    <label><input type="radio" name="to" value="2"><span>+7 747 092 2849</span></label></div></fieldset>
   <button type="submit" class="btn btn-mint">${T("f_send")}</button><div class="hint">${T("f_hint")}</div>`;
 }
 function renderForm(){$("#inline-form").className="form s lit";$("#inline-form").innerHTML=formHTML()}
@@ -301,7 +307,9 @@ function openBook(svc,doc,phone){
   openModal(bookHTML());
   const sel=$("select",mbody);if(sel&&svc&&SVC_KEYS[svc])sel.value=svc;
   const ta=$("textarea",mbody);if(ta&&doc)ta.value=T("doc_pref")+doc;
-  mbody.dataset.phone=phone||MAIN_PHONE;
+  mbody.dataset.phone=(phone||MAIN_PHONE).replace(/\D/g,"");
+  const w1=$("[data-wa1]",mbody),d=mbody.dataset.phone;
+  if(w1&&d.length===11)w1.textContent=`+${d[0]} ${d.slice(1,4)} ${d.slice(4,7)} ${d.slice(7)}`;
 }
 function priceHTML(key){
   const p=window.CONTENT&&window.CONTENT.prices[key];if(!p)return "";
@@ -338,7 +346,9 @@ function sendWA(form){
   const s=form.querySelector("select");
   const sv=s&&s.value?s.options[s.selectedIndex].text:T("f_any");
   const msg=T("wa").replace("{n}",g("n")||"-").replace("{p}",g("phone")||"-").replace("{s}",sv).replace("{c}",g("c")||"-");
-  const phone=(form.closest("#modal-body")&&mbody.dataset.phone)||MAIN_PHONE;
+  const own=(form.closest("#modal-body")&&mbody.dataset.phone)||MAIN_PHONE;
+  const to=form.querySelector("[name=to]:checked");
+  const phone=to&&to.value==="2"?WA2:own;
   window.open("https://wa.me/"+phone+"?text="+encodeURIComponent(msg),"_blank");
 }
 
