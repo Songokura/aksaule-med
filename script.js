@@ -364,7 +364,16 @@ document.addEventListener("click",e=>{
   if(e.target.closest("#modal [data-close]")||e.target===modal){closeModal();return}
   if(e.target.closest(".menu a"))document.body.classList.remove("menu-open");
 });
-document.addEventListener("submit",e=>{const f=e.target.closest("form.form");if(f){e.preventDefault();sendWA(f)}});
+/* конверсии Google Ads: звонок, WhatsApp, отправка формы. Переход не задерживаем, доставка через beacon */
+const CONV={tel:"AW-18557323751/2hCSCJ_1zrIdEOeT6ZBF",wa:"AW-18557323751/WX5CCI6gx7IdEOeT6ZBF",form:"AW-18557323751/xlrpCJ2Az7IdEOeT6ZBF"};
+function conv(k){if(typeof window.gtag==="function")window.gtag("event","conversion",{send_to:CONV[k],value:1.0,currency:"USD",transport_type:"beacon"})}
+window.addEventListener("click",e=>{
+  const a=e.target.closest&&e.target.closest("a[href]");if(!a)return;
+  const h=a.getAttribute("href");
+  if(h.startsWith("tel:"))conv("tel");
+  else if(/^https:\/\/(wa\.me|api\.whatsapp\.com)\//.test(h))conv("wa");
+},true);
+document.addEventListener("submit",e=>{const f=e.target.closest("form.form");if(f){e.preventDefault();conv("form");sendWA(f)}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeLightbox();closeModal();document.body.classList.remove("menu-open")}});
 
 $("#burger").addEventListener("click",()=>{
