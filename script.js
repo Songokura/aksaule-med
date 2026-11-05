@@ -50,54 +50,6 @@ ru:{
  doc_pref:"Врач: ",
  wa:"Здравствуйте! Хочу записаться на приём.\nИмя: {n}\nТелефон: {p}\nУслуга: {s}\nЖалоба: {c}"
 },
-kk:{
- n_svc:"Қызметтер",n_doc:"Дәрігерлер",n_br:"Бөлімшелер",n_cl:"Клиника",n_rev:"Пікірлер",n_con:"Байланыс",m_call:"Қоңырау шалу:",
- h_eye:"Қызылорда · 5 бөлімше · 2016 жылдан бері",
- h_title:"Қызылордадағы медициналық орталық",
- h_sub:"Анық диагноз, әділ баға және жасырын төлемсіз ем. ЛОР, кардиолог, невропатолог, ревматолог және реабилитация - қаланың 5 бөлімшесінде 12 дәрігер.",
- h_hint:"Нүктені басыңыз - керек бөлімге өтесіз",
- h_mean:"<b>Ақ сәуле</b> - таза жарық. Біз де солай жұмыс істейміз: анық диагноз, ашық баға, жасырын төлемсіз ем.",
- b_book:"Қабылдауға жазылу",b_call:"Қоңырау шалу",b_book2:"Жазылу",b_price:"Толық баға",b_bio:"Өмірбаяны",
- mp_lor:"ЛОР",mp_nev:"Невропатолог",mp_kar:"Кардиолог",mp_reab:"Реабилитация",mp_rev:"Ревматолог",
- st1:"қаладағы бөлімше",st2:"штаттағы дәрігер",st3:"жылына пациент",st4:"2GIS рейтингі",st5:"құрылған жыл",
- k_svc:"Қызметтер",s_h:"Бағыттар мен бағалар",
- s_sub:"Ем қабылдасаңыз - консультация тегін. Бағалар шамамен берілген, нақты құнды дәрігермен немесе WhatsApp арқылы анықтаңыз.",
- lab_pri:"Қабылдау",lab_con:"Консультация",lab_from:"бастап",free:"Ем қабылдасаңыз - консультация тегін",
- lor_h:"ЛОР дәрігері",lor_a:"Құлақ, мұрын, тамақ",lor_p:"Құлақ, мұрын, тамақ ауруларын диагностикалау және емдеу. Қаланың 4 бөлімшесінде 9 ЛОР дәрігері қабылдайды.",
- nev_h:"Невропатолог",nev_a:"Жүйке жүйесі",nev_p:"Бас ауруы, бас айналу, ұйқы бұзылысы, омыртқа және жүйке жүйесі аурулары.",
- kar_h:"Кардиолог",kar_a:"Жүрек және қантамыр",kar_p:"Аритмия, қан қысымы, жүрек-қантамыр жүйесін тексеру және емдеу. ЭКГ орнында.",
- rev_h:"Ревматолог",rev_a:"Буын және сүйек",rev_p:"Буын ауруы, артрит, артроз, сүйек-бұлшықет жүйесінің аурулары.",
- reab_h:"Реабилитация",reab_a:"Физиотерапия, массаж, ЕДШ",reab_p:"Сұлтан Бейбарыс 2 бойындағы реабилитациялық орталық: физиотерапия, массаж, УДЗ, операция мен жарақаттан кейінгі қалпына келтіру бағдарламалары.",
- pak_h:"Емдеу пакеттері",pak_a:"Күндізгі стационардағы курс",pak_p:"Дәрі-дәрмек, физиоем және дәрігер бақылауы бір пакетте. Құрамын дәрігер науқастың жағдайына қарай таңдайды.",
- pak_lab:"Ревматология",pak_b:"Пакет құрамы",
- s_note:"Шетел азаматтарына қызмет құны 50% жоғары есептеледі.",
- k_doc:"Дәрігерлер",d_h:"Сізді кім қабылдайды",d_sub:"Фотодағы сақина дәрігердің тәжірибесін көрсетеді: 30 жыл - толық шеңбер.",
- all:"Барлығы",yrs:"жыл тәжірибе",
- sp:{lor:"ЛОР дәрігері",kar:"Кардиолог",nev:"Невропатолог",rev:"Ревматолог",reab:"Реабилитолог",nut:"Нутрициолог",ter:"Терапевт"},
- k_br:"Бөлімшелер",br_h:"Қала бойынша бес мекенжай",br_sub:"Циферблат жұмыс күндеріндегі жұмыс уақытын көрсетеді. Ақ саңылау - түскі үзіліс.",
- kind_reab:"Реабилитациялық орталық",kind_lor:"ЛОР бөлімшесі",
- wd:"Дс-Жм",wd6:"Дс-Сб",sat:"Сенбі",sun:"Жексенбі",brk:"үзіліс",off:"Демалыс",map:"Картада",
- soon_b:"Жақында жаңа бөлімше ашылады",soon_s:"Біз дамып келеміз - сізге жақынырақ боламыз. Жаңалықтар клиника Instagram-ында.",
- k_cl:"Клиника",g_h:"Ішіміз қандай",g_sub:"Кабинеттер, жабдық және қабылдаудың нақты суреттері. Үлкейту үшін фотоны басыңыз.",
- k_why:"Неге біз",a_h:"Пациенттер неге қайта келеді",
- adv:[["Тәжірибелі дәрігерлер","12 дәрігер: ЛОР, терапевт, кардиолог, невропатолог, ревматолог."],
-      ["Барлығы бір жерде","Консультация, диагностика және ем - қала кезіп жүрмей."],
-      ["Жеке емдеу жоспары","Схема сіздің жағдайыңызға қарай таңдалады, үлгі бойынша емес."],
-      ["Заманауи жабдық","Бейнеэндоскопия, аудиометрия, ЭКГ, УДЗ, физиотерапия."],
-      ["Ашық баға","Құны алдын ала айтылады, жасырын төлем жоқ."],
-      ["Тегін консультация","Ем қабылдасаңыз, консультация үшін төлемейсіз."],
-      ["Уақыт үнемдеу","Алдын ала жазылу, уақыты бойынша қабылдау, аз күту."],
-      ["Қамқорлық пен сенім","2GIS-те 5.0 және аудандар мен Астанадан келетін пациенттер."]],
- k_rev:"Пікірлер",r_h:"Пациенттер не дейді",r_sub:"2GIS, Google, Яндекс және әлеуметтік желілерден. Картаны солға сырғытыңыз немесе түймені басыңыз.",
- r_next:"Келесі пікір",r_yt:"Видео-пікірлер YouTube-та",r_cnt:"2GIS, Google, Яндекс, Instagram, TikTok, Threads және YouTube-тағы 16 пікір",
- k_con:"Байланыс",c_h:"Жазылу және жол",c_sub:"Қызылорда қаласы. Бөлімшеге тікелей қоңырау шалыңыз немесе WhatsApp-қа жазыңыз - жұмыс уақытында жауап береміз.",
- f_h:"Қабылдауға жазылу",f_name:"Атыңыз",f_phone:"Телефон нөміріңіз",f_svc:"Қызмет",f_note:"Шағымыңыз (міндетті емес)",
- f_send:"WhatsApp арқылы жіберу",f_hint:"WhatsApp ашылып, хабарламаңыз дайын тұрады.",f_any:"Әлі шешкен жоқпын",
- f_1:"Денсаулығыңыз - біздің басты құндылығымыз.",f_2:"Қызылорда, 5 бөлімше",f_3:"Барлық құқықтар қорғалған.",
- m_price:"Бағалар",m_pkg:"Емдеу пакеттері",m_pkg_sub:"Күндізгі стационардағы курс құрамы. Нақты схеманы дәрігер қабылдауда таңдайды.",
- doc_pref:"Дәрігер: ",
- wa:"Сәлеметсіз бе! Қабылдауға жазылғым келеді.\nАтым: {n}\nТелефон: {p}\nҚызмет: {s}\nШағым: {c}"
-},
 en:{
  n_svc:"Services",n_doc:"Doctors",n_br:"Branches",n_cl:"Clinic",n_rev:"Reviews",n_con:"Contacts",m_call:"Call us:",
  h_eye:"Kyzylorda · 5 branches · since 2016",
@@ -166,45 +118,45 @@ const SP_KEYS=["lor","ter","kar","nev","rev"];
 
 const BR=[
  {img:"beibarys",k:"reab",ph:"+7 747 234 4066",wd:[8.5,17],b:[13,14.5],sat:"08:30-13:00",sun:null,d:"wd",
-  a:{ru:"Султан Бейбарыс, 2",kk:"Сұлтан Бейбарыс, 2",en:"2 Sultan Beibarys St"}},
+  a:{ru:"Султан Бейбарыс, 2",en:"2 Sultan Beibarys St"}},
  {img:"esenova",k:"lor",ph:"+7 700 741 7676",wd:[8.5,17],b:[13,14.5],sat:"08:30-13:00",sun:null,d:"wd",
-  a:{ru:"Есенова, 4а",kk:"Есенова, 4а",en:"4a Yesenov St"}},
+  a:{ru:"Есенова, 4а",en:"4a Yesenov St"}},
  {img:"aitbaev",k:"lor",ph:"+7 771 339 6447",wd:[8.5,20],b:[13,14.5],sat:null,sun:"08:30-17:00",d:"wd6",
-  a:{ru:"Айтбаев, 33",kk:"Айтбаев, 33",en:"33 Aitbayev St"}},
+  a:{ru:"Айтбаев, 33",en:"33 Aitbayev St"}},
  {img:"merei",k:"lor",ph:"+7 705 399 3170",wd:[8.5,17],b:[13,14.5],sat:"08:30-13:00",sun:null,d:"wd",
-  a:{ru:"Мерей, 25",kk:"Мерей, 25",en:"25 Merey St"}},
+  a:{ru:"Мерей, 25",en:"25 Merey St"}},
  {img:"shugyla",k:"lor",ph:"+7 747 234 4066",wd:[9,17],b:[13,14.5],sat:"09:00-13:00",sun:null,d:"wd",
-  a:{ru:"Шугыла, 30",kk:"Шұғыла, 30",en:"30 Shugyla St"}}
+  a:{ru:"Шугыла, 30",en:"30 Shugyla St"}}
 ];
 
 const GAL=[
- {f:"g1",alt:{ru:"Коридор клиники Ақсауле-Мед",kk:"Ақсауле-Мед клиникасының дәлізі",en:"Corridor of the Aqsaule-Med clinic"}},
- {f:"g2",alt:{ru:"Ресепшн клиники",kk:"Клиниканың ресепшні",en:"Clinic reception"}},
- {f:"g3",alt:{ru:"Детская зона ожидания",kk:"Балаларға арналған күту аймағы",en:"Children's waiting area"}},
- {f:"g4",alt:{ru:"Палата дневного стационара",kk:"Күндізгі стационар палатасы",en:"Day hospital room"}},
- {f:"g5",alt:{ru:"Зал реабилитации и ЛФК",kk:"Реабилитация және ЕДШ залы",en:"Rehabilitation and exercise therapy room"}},
- {f:"g6",alt:{ru:"Кабинет с оборудованием",kk:"Жабдықталған кабинет",en:"Treatment room with equipment"}},
- {f:"g7",alt:{ru:"Видеоэндоскопия ЛОР-органов",kk:"ЛОР мүшелерін бейнеэндоскопиялау",en:"ENT video endoscopy"}},
- {f:"g8",alt:{ru:"Приём ЛОР-врача",kk:"ЛОР дәрігерінің қабылдауы",en:"ENT appointment"}}
+ {f:"g1",alt:{ru:"Коридор клиники Ақсауле-Мед",en:"Corridor of the Aqsaule-Med clinic"}},
+ {f:"g2",alt:{ru:"Ресепшн клиники",en:"Clinic reception"}},
+ {f:"g3",alt:{ru:"Детская зона ожидания",en:"Children's waiting area"}},
+ {f:"g4",alt:{ru:"Палата дневного стационара",en:"Day hospital room"}},
+ {f:"g5",alt:{ru:"Зал реабилитации и ЛФК",en:"Rehabilitation and exercise therapy room"}},
+ {f:"g6",alt:{ru:"Кабинет с оборудованием",en:"Treatment room with equipment"}},
+ {f:"g7",alt:{ru:"Видеоэндоскопия ЛОР-органов",en:"ENT video endoscopy"}},
+ {f:"g8",alt:{ru:"Приём ЛОР-врача",en:"ENT appointment"}}
 ];
 
 const REV=[
- {n:"Руслан Налсур",s:"2GIS",t:{ru:"Сильные врачи, я снова на ногах. Приходите!",kk:"Мықты дәрігерлер бар екен, аяғыма тұрдым, келіңдер!",en:"Strong doctors here, I am back on my feet. Go and see them!"}},
- {n:"Roza Utegenova",s:"Яндекс",t:{ru:"Прошла десять дней лечения, результат отличный. Огромное спасибо врачу Асель!",kk:"Он күн ем алдым! Нәтижесі супер! Асел дәрігерге мың алғыс!",en:"I had ten days of treatment and the result is excellent. Many thanks to Dr Assel!"}},
- {n:"Мархабай Сандыбаева",s:"Instagram",t:{ru:"Благодарность доктору Асель Шазатхановне. Чистота в клинике идеальная.",kk:"Асель Шазатханқызына алғысым шексіз! Тазалық керемет!",en:"My deepest thanks to Dr Assel Kultayeva. The clinic is spotless."}},
- {n:"Болекбаев Калдыбек",s:"TikTok",t:{ru:"Огромная благодарность Алмату Айтуаровичу и Айгуль Касымжан.",kk:"Алмат Айтуарұлына, Қасымжан Айгүлге алғысым шексіз.",en:"Huge thanks to Almat Bainayev and Aigul Kasymzhan."}},
- {n:"Abilaikhan Kungabylov",s:"YouTube",t:{ru:"Благодарю коллектив во главе с доктором Кайратом.",kk:"Қайрат дәрігер бастаған ұжымға алғысымды білдіремін.",en:"I thank the whole team led by Dr Kairat."}},
- {n:"Асанова Эльмира",s:"2GIS",t:{ru:"Вылечили за один день. Персонал не жалеет сил. Спасибо.",kk:"Бір күнде емдеп жіберді. Персоналы аянбайды. Рахмет.",en:"They treated me in a single day. The staff go out of their way. Thank you."}},
- {n:"Айгерим Шыныбек",s:"Google",t:{ru:"Прекрасный персонал. Пришли с сыном к ЛОР. Благодарим!",kk:"Тамаша ұжым. Ұлыммен ЛОР-ға келдік. Алғыс айтамыз!",en:"Wonderful staff. I came with my son to the ENT doctor. Thank you!"}},
- {n:"Нурсулу Умбетова",s:"Яндекс",t:{ru:"Благодарю ЛОР-врача Айгерим Жусиповну.",kk:"ЛОР дәрігері Айгерім Жүсіпқызына ризашылығымды білдіремін.",en:"My thanks to the ENT doctor Aigerim Zhusipova."}},
- {n:"Мейрамкул Жартыбасова",s:"Instagram",t:{ru:"Пришла с диагнозом ДППГ, за два сеанса всё прошло. Спасибо доктору Бакытбеку!",kk:"ДППГ диагнозымен келгенмін, екі сеанста басылды. Бақытбек докторға рахмет!",en:"I came with BPPV and it settled in two sessions. Thank you, Dr Bakytbek!"}},
- {n:"Сезим Абдукаримова",s:"TikTok",t:{ru:"Мырзабаев Бакытбек - грамотный специалист.",kk:"Мырзабаев Бақытбек - білікті маман.",en:"Bakytbek Myrzabayev is a very competent specialist."}},
- {n:"Ержан Қанатов",s:"YouTube",t:{ru:"Специально приехал из Астаны. Алмат Айтуарович - мастер своего дела. Прошёл лечение, результат хороший.",kk:"Астанадан арнайы келдім. Алмат Айтуарұлы өз ісінің маманы екен. Емін алып, жақсы нәтиже көрдім.",en:"I travelled from Astana on purpose. Almat Bainayev is a master of his craft. I had the treatment and the result is good."}},
- {n:"Мадина Серікқызы",s:"Google",t:{ru:"Айгуль Жугерибаевна - очень знающий кардиолог. Вижу результат лечения.",kk:"Қасымжан Айгүл Жүгерібайқызы өте білімді кардиолог екен. Емнің нәтижесін көріп жатырмын.",en:"Aigul Kasymzhan is a very knowledgeable cardiologist. I can see the result of the treatment."}},
- {n:"Аружан Нұрсұлтанқызы",s:"TikTok",t:{ru:"Култаева Асель Шазатхановна - сильный невропатолог. Выслушала внимательно, объяснила ясно.",kk:"Култаева Асель Шазатхановна өте мықты невропатолог екен. Бәрін мұқият тыңдап, анық түсіндірді.",en:"Assel Kultayeva is a strong neurologist. She listened carefully and explained everything clearly."}},
- {n:"Айман Серікқызы",s:"2GIS",t:{ru:"Жантурсынова Жупар Базарбековна - сильный ревматолог. Вижу результат.",kk:"Жантұрсынова Жұпар Базарбекқызы өте мықты ревматолог екен. Нәтижесін көріп жатырмын.",en:"Zhupar Zhantursynova is a strong rheumatologist. I can see the result."}},
- {n:"Айнұр Әбілдаева",s:"2GIS",t:{ru:"Дуйсенов Кайрат Даулетбаевич - сильный ЛОР-врач. Филиал на Есенова 4а на высоком уровне.",kk:"Дүйсенов Қайрат Дәулетбайұлы өте мықты ЛОР дәрігері екен. Есенова 4а бөлімшесі жоғары деңгейде.",en:"Kairat Duisenov is a strong ENT doctor. The branch at 4a Yesenov St is excellent."}},
- {n:"Мөлдір Айбекқызы",s:"TikTok",t:{ru:"Приехали из дальнего села и не зря. Пусть таких центров будет больше!",kk:"Алыс ауылдан келдік, бекер келмеппіз. Осындай орталықтар көп болсын!",en:"We came from a far-away village and it was worth it. May there be more centres like this!"}}
+ {n:"Руслан Налсур",s:"2GIS",t:{ru:"Сильные врачи, я снова на ногах. Приходите!",en:"Strong doctors here, I am back on my feet. Go and see them!"}},
+ {n:"Roza Utegenova",s:"Яндекс",t:{ru:"Прошла десять дней лечения, результат отличный. Огромное спасибо врачу Асель!",en:"I had ten days of treatment and the result is excellent. Many thanks to Dr Assel!"}},
+ {n:"Мархабай Сандыбаева",s:"Instagram",t:{ru:"Благодарность доктору Асель Шазатхановне. Чистота в клинике идеальная.",en:"My deepest thanks to Dr Assel Kultayeva. The clinic is spotless."}},
+ {n:"Болекбаев Калдыбек",s:"TikTok",t:{ru:"Огромная благодарность Алмату Айтуаровичу и Айгуль Касымжан.",en:"Huge thanks to Almat Bainayev and Aigul Kasymzhan."}},
+ {n:"Abilaikhan Kungabylov",s:"YouTube",t:{ru:"Благодарю коллектив во главе с доктором Кайратом.",en:"I thank the whole team led by Dr Kairat."}},
+ {n:"Асанова Эльмира",s:"2GIS",t:{ru:"Вылечили за один день. Персонал не жалеет сил. Спасибо.",en:"They treated me in a single day. The staff go out of their way. Thank you."}},
+ {n:"Айгерим Шыныбек",s:"Google",t:{ru:"Прекрасный персонал. Пришли с сыном к ЛОР. Благодарим!",en:"Wonderful staff. I came with my son to the ENT doctor. Thank you!"}},
+ {n:"Нурсулу Умбетова",s:"Яндекс",t:{ru:"Благодарю ЛОР-врача Айгерим Жусиповну.",en:"My thanks to the ENT doctor Aigerim Zhusipova."}},
+ {n:"Мейрамкул Жартыбасова",s:"Instagram",t:{ru:"Пришла с диагнозом ДППГ, за два сеанса всё прошло. Спасибо доктору Бакытбеку!",en:"I came with BPPV and it settled in two sessions. Thank you, Dr Bakytbek!"}},
+ {n:"Сезим Абдукаримова",s:"TikTok",t:{ru:"Мырзабаев Бакытбек - грамотный специалист.",en:"Bakytbek Myrzabayev is a very competent specialist."}},
+ {n:"Ержан Қанатов",s:"YouTube",t:{ru:"Специально приехал из Астаны. Алмат Айтуарович - мастер своего дела. Прошёл лечение, результат хороший.",en:"I travelled from Astana on purpose. Almat Bainayev is a master of his craft. I had the treatment and the result is good."}},
+ {n:"Мадина Серікқызы",s:"Google",t:{ru:"Айгуль Жугерибаевна - очень знающий кардиолог. Вижу результат лечения.",en:"Aigul Kasymzhan is a very knowledgeable cardiologist. I can see the result of the treatment."}},
+ {n:"Аружан Нұрсұлтанқызы",s:"TikTok",t:{ru:"Култаева Асель Шазатхановна - сильный невропатолог. Выслушала внимательно, объяснила ясно.",en:"Assel Kultayeva is a strong neurologist. She listened carefully and explained everything clearly."}},
+ {n:"Айман Серікқызы",s:"2GIS",t:{ru:"Жантурсынова Жупар Базарбековна - сильный ревматолог. Вижу результат.",en:"Zhupar Zhantursynova is a strong rheumatologist. I can see the result."}},
+ {n:"Айнұр Әбілдаева",s:"2GIS",t:{ru:"Дуйсенов Кайрат Даулетбаевич - сильный ЛОР-врач. Филиал на Есенова 4а на высоком уровне.",en:"Kairat Duisenov is a strong ENT doctor. The branch at 4a Yesenov St is excellent."}},
+ {n:"Мөлдір Айбекқызы",s:"TikTok",t:{ru:"Приехали из дальнего села и не зря. Пусть таких центров будет больше!",en:"We came from a far-away village and it was worth it. May there be more centres like this!"}}
 ];
 
 const SVC_KEYS={lor:"lor_h",nevropatolog:"nev_h",kardiolog:"kar_h",revmatolog:"rev_h",reabilitaciya:"reab_h",pakety:"pak_h"};
@@ -214,11 +166,27 @@ const MAIN_PHONE="77472344066";
 /* ---------- вспомогательное ---------- */
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+/* Казахский словарь лежит отдельно (assets/lang/) и грузится только по явному выбору:
+   кнопка KZ, ?lang=kk или сохранённый выбор. ?lang= в адресе главнее сохранённого выбора. */
+const LANGS=["ru","kk","en"];
+const VER=(()=>{try{return new URL(document.currentScript.src).searchParams.get("v")||""}catch(e){return ""}})();
 function pickLang(){
   const q=new URLSearchParams(location.search).get("lang");
-  if(q&&I[q])return q;
-  try{const s=localStorage.getItem("am_lang");if(s&&I[s])return s}catch(e){}
+  if(q&&LANGS.includes(q))return q;
+  try{const s=localStorage.getItem("am_lang");if(s&&LANGS.includes(s))return s}catch(e){}
   return "ru";
+}
+function addScript(src){return new Promise((ok,no)=>{const el=document.createElement("script");
+  el.src=src+(VER?"?v="+VER:"");el.onload=ok;el.onerror=no;document.head.appendChild(el)})}
+let kkReady=null;
+function loadKK(){
+  if(!kkReady)kkReady=Promise.all([addScript("assets/lang/kk.js"),addScript("assets/lang/content-kk.js")]).then(()=>{
+    const K=window.SITE_KK;
+    I.kk=K.I;BR.forEach((b,i)=>b.a.kk=K.BR[i]);GAL.forEach((g,i)=>g.alt.kk=K.GAL[i]);REV.forEach((r,i)=>r.t.kk=K.REV[i]);
+    const C=window.CONTENT;
+    if(C)(window.CONTENT_KK||[]).forEach(([p,v])=>{let o=C;for(const k of p){o=o&&o[k]}if(o)o.kk=v});
+  }).catch(e=>{kkReady=null;throw e});
+  return kkReady;
 }
 let LANG=pickLang();
 const T=k=>I[LANG][k];
@@ -275,7 +243,7 @@ function renderBranches(){
           </div>
           <div class="acts">
             <a class="pri" href="tel:${tel(b.ph)}">${b.ph}</a>
-            <a href="https://2gis.kz/kyzylorda/search/${encodeURIComponent(b.a.kk+" Ақсауле-Мед")}" target="_blank" rel="noopener">${T("map")}</a>
+            <a href="https://2gis.kz/kyzylorda/search/${encodeURIComponent((b.a.kk||b.a.ru)+" Ақсауле-Мед")}" target="_blank" rel="noopener">${T("map")}</a>
           </div>
         </div>
       </div></article>`}).join("");
@@ -290,10 +258,10 @@ function formHTML(){
   const opts=Object.entries(SVC_KEYS).map(([k,v])=>`<option value="${k}">${T(v)}</option>`).join("");
   return `<h3>${T("f_h")}</h3>
   <div class="f"><label for="fn">${T("f_name")}</label><input id="fn" type="text" name="n" autocomplete="name"></div>
-  <div class="f"><label for="fp">${T("f_phone")}</label><input id="fp" type="tel" name="p" inputmode="tel" placeholder="+7 ___ ___ __ __" autocomplete="tel"></div>
+  <div class="f"><label for="fphone">${T("f_phone")}</label><input id="fphone" type="tel" name="phone" inputmode="tel" placeholder="+7 ___ ___ __ __" autocomplete="tel"></div>
   <div class="f"><label for="fs">${T("f_svc")}</label><select id="fs" name="s"><option value="">${T("f_any")}</option>${opts}</select></div>
   <div class="f"><label for="fc">${T("f_note")}</label><textarea id="fc" name="c"></textarea></div>
-  <button class="btn btn-mint" data-send>${T("f_send")}</button><div class="hint">${T("f_hint")}</div>`;
+  <button type="submit" class="btn btn-mint">${T("f_send")}</button><div class="hint">${T("f_hint")}</div>`;
 }
 function renderForm(){$("#inline-form").className="form s lit";$("#inline-form").innerHTML=formHTML()}
 
@@ -328,7 +296,7 @@ function closeModal(){
   modal.classList.remove("on");modal.setAttribute("aria-hidden","true");
   document.body.style.overflow="";document.body.classList.remove("modal-open");
 }
-function bookHTML(){return `<div class="form">${formHTML()}</div>`}
+function bookHTML(){return `<form class="form" novalidate>${formHTML()}</form>`}
 function openBook(svc,doc,phone){
   openModal(bookHTML());
   const sel=$("select",mbody);if(sel&&svc&&SVC_KEYS[svc])sel.value=svc;
@@ -369,7 +337,7 @@ function sendWA(form){
   const g=n=>{const el=form.querySelector(`[name=${n}]`);return el?el.value.trim():""};
   const s=form.querySelector("select");
   const sv=s&&s.value?s.options[s.selectedIndex].text:T("f_any");
-  const msg=T("wa").replace("{n}",g("n")||"-").replace("{p}",g("p")||"-").replace("{s}",sv).replace("{c}",g("c")||"-");
+  const msg=T("wa").replace("{n}",g("n")||"-").replace("{p}",g("phone")||"-").replace("{s}",sv).replace("{c}",g("c")||"-");
   const phone=(form.closest("#modal-body")&&mbody.dataset.phone)||MAIN_PHONE;
   window.open("https://wa.me/"+phone+"?text="+encodeURIComponent(msg),"_blank");
 }
@@ -382,11 +350,11 @@ document.addEventListener("click",e=>{
   const bi=e.target.closest("[data-bio]");      if(bi){openModal(bioHTML(bi.dataset.bio));return}
   const pk=e.target.closest("[data-pkg]");      if(pk){openModal(pkgHTML());return}
   const im=e.target.closest("[data-img]");      if(im){openLightbox(im.dataset.img,im.getAttribute("aria-label"));return}
-  const sd=e.target.closest("[data-send]");     if(sd){sendWA(sd.closest(".form"));return}
   if(e.target.closest("#lightbox [data-close]")||e.target===lb){closeLightbox();return}
   if(e.target.closest("#modal [data-close]")||e.target===modal){closeModal();return}
   if(e.target.closest(".menu a"))document.body.classList.remove("menu-open");
 });
+document.addEventListener("submit",e=>{const f=e.target.closest("form.form");if(f){e.preventDefault();sendWA(f)}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeLightbox();closeModal();document.body.classList.remove("menu-open")}});
 
 $("#burger").addEventListener("click",()=>{
@@ -395,8 +363,10 @@ $("#burger").addEventListener("click",()=>{
 });
 $("#next").addEventListener("click",nextCard);
 
-$$(".lang button").forEach(b=>b.addEventListener("click",()=>{
-  LANG=b.dataset.lang;
+$$(".lang button").forEach(b=>b.addEventListener("click",async()=>{
+  const want=b.dataset.lang;
+  if(want==="kk"){try{await loadKK()}catch(e){return}}
+  LANG=want;
   try{localStorage.setItem("am_lang",LANG)}catch(e){}
   const u=new URL(location);u.searchParams.set("lang",LANG);history.replaceState(null,"",u);
   renderStatic();buildDeck();bindScan();
@@ -459,7 +429,9 @@ function pinHash(){
 addEventListener("hashchange",pinHash);
 
 /* ---------- старт ---------- */
+if(LANG==="kk"&&!I.kk)LANG="ru";
 renderStatic();buildDeck();bindScan();
+if(pickLang()==="kk")loadKK().then(()=>{LANG="kk";renderStatic();buildDeck();bindScan()}).catch(()=>{});
 addEventListener("load",()=>{
   document.body.classList.add("go");
   fitTitle();
